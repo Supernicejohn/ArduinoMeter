@@ -1,8 +1,8 @@
 #include <LiquidCrystal.h>
 // Open Source
 // ! Only 0-5 Volt input, failure to comply to this restriction may lead to destruction of an arduino. How sad. ! //
-// Connect screen to 
 const int VoltagePin = 0;
+// Connect screen to the following pins
 LiquidCrystal lcd(12,11,5,4,3,2);
 void setup() {
   lcd.begin(16,2);
